@@ -9,16 +9,20 @@ app.secret_key = 'ABC'
 def main_page():
     '''renders main page '''
 
-    return render_template('main_page.html')
+    return render_template('home.html')
 
 @app.route('/about')
 def about():
     '''renders about page'''
     return render_template('about.html')
 
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
-
-
+@app.route('/projects')
+def projects():
+    return render_template('projects.html')
 
 
 

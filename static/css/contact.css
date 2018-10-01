@@ -1,0 +1,41 @@
+/*body, html {
+    height: 100%;
+    
+}*/
+
+.bg {
+    /* The image used */
+    background-image: url("/static/img/thank-you.jpg");
+
+    /* Full height */
+    height: 100%; 
+    /*position: relative;*/
+    /*opacity: 0.65;*/
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details{
+    font-size: 18pt;
+}
+h1{
+    /*font-style: italic;*/
+    padding: 20px;
+    margin-left: 15px;
+    font-family: sans-serif;
+ 
+}
+
+.contacts{
+    
+    background-image: url('/static/img/paper_fibers.png');
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 400px;
+    background-color: white;
+    /*opacity: 0.65;*/
+}

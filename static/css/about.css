@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("/static/img/wood2.jpg");
+
+    /* Full height */
+    height: 100%; 
+    /*position: relative;*/
+    /*opacity: 0.65;*/
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: relative;
+    left: 0;
+    /*top: 1%;*/
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+#about{
+    background-image: url('/static/img/paper_fibers.png');
+    /*border-radius: 25px;*/
+    /*margin-top: 100px;*/
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+    position: center;
+}
+/*body {
+   background-image: url("/static/img/blank-coffee-cup.jpg");
+   
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-color: #cccccc;
+   
+}*/
+
+.container-fluid {
+    position: relative;
+}
+
+#avatar{
+  width: 270px;
+}
+
+.about{
+    /*color: white;*/
+    
+    /*background-color: rgb(171,171,171, 0.65);*/
+    /*text-align: center;*/
+}
+
+/*p{
+ margin-left: 15px;
+    margin-right: 15px;   
+}*/
+
+h1, h3{
+/*color: white;*/
+font-family: serif;
+font-style: italic;
+display: inline;
+}

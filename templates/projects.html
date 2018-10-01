@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %} Lisa Leniashina Web Site {% endblock %}
+
+
+{% block main_content %}
+<link href='static/css/project.css' rel='stylesheet'>
+
+<div class='container'>
+
+    <h3><a href='http://moviescope.biz'> Moviescope</a> (student project at Hackbright)</h3>
+    <h4><a hraf='#'> Video Presentation</a></h4>
+    <div class = 'row'>
+        <div class='col-4'>
+            <img src = '/static/img/landing.jpg'><br><br>    
+            <img src = '/static/img/recom1.jpg'>
+        </div>
+       
+        
+        <div class='col'>
+        <p>Moviescope is a personal movie journal, which helps users to track films they have watched or want to watch in the future. A user can search for a movie by title, add reviews and ratings, and store it in a personal journal. Also, Moviescope provides a list of recommendations matching the user’s taste. A user can compile a wishlist of films and find watch options on streaming services and in theaters.</p>
+        <h5> Technology Stack:</h5>
+        <ul>
+            <li> Backend: Python, Flask, PostgreSQL, SQLAlchemy </li>
+            <li>Frontend: JavaScript, jQuery, AJAX, JASON, Jinja2, Bootstrap, HTML5, CSS3 </li> 
+            <li>APIs: OMDB, Recombee, JustWatch  </li> 
+            <li>Dataset: MovieLens  </li> 
+        </ul>
+        <p> More details see on <a href='https://github.com/LisaLen/Moviescope'> GitHub</a></p>
+
+        </div>
+    </div>
+
+    
+
+
+</div>
+
+
+
+{% endblock %}
