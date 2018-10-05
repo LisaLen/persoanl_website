@@ -19,16 +19,31 @@ body, html {
 }
 
 .container{
+    margin-bottom: 1%;
     margin-left: 10%;
     width: 80%;
-    height: 60%;
-    background-color: gray;
+    /*height: 60%;*/
+    background-color: rgb(220,220,220, 0.85);;
+
     /*opacity: 0.65;*/
 }
-h3{
+/*h3{
 color:white;
 }
-
+*/
+.project{
+    color: black;
+    font-style: oblique;
+}
 img{
     width: 300px;
+}
+#hb{
+    width: 250px;
+}
+ul#title li{
+display:inline;
+}
+#projecttitle{
+    font-size: 30px;
 }
