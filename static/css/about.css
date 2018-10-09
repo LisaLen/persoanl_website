@@ -43,13 +43,15 @@ body, html {
 }
 
 #avatar{
-  width: 270px;
+  width: 100%;
+  height: auto;
 }
 
 
 h1, h3{
 /*color: white;*/
-font-family: serif;
+/*font-family: serif;*/
 font-style: italic;
+/*font-style: oblique;*/
 display: inline;
 }
