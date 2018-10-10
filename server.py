@@ -26,8 +26,6 @@ def projects():
 
 
 
-
-
 if __name__ == '__main__':
     app.debug = False
     app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
